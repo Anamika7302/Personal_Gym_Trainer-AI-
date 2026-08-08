@@ -2,7 +2,7 @@
 .env
 .streamlit/secrets.toml
 
-ml_models/
+
 
 
 __pycache__/
