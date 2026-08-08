@@ -1,0 +1,14 @@
+
+.env
+.streamlit/secrets.toml
+
+ml_models/
+
+
+__pycache__/
+*.pyc
+
+.venv/
+venv/
+
+data.db
