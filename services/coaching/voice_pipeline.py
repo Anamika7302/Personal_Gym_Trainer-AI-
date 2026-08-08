@@ -93,7 +93,7 @@ class VoicePipeline:
             text = self.llm.give_feedback(event, issue)
             
         self.last_spoken_at = now
-        voice = self.tts(text)    
+        voice = self.tts.speak(text)    
         return voice , text
             
 
